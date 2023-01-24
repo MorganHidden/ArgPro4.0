@@ -7,6 +7,10 @@
     
 }
 
+body {
+    background-color: aquamarine;
+}
+
 #box1 {
     width: 1200px;
     height: 1000px;
@@ -30,12 +34,18 @@
 }
 
 #box2 {
-    height: 50%;
+    height: 45%;
     background-color: white; 
 }
 
 #footer {
     height: 20%;
-    background-color: blue;
+    background-color: gray;
     border-radius: 1em;
+}
+
+#section {
+    height: 100%;
+    width: 70%;
+    background-color: red;
 }
