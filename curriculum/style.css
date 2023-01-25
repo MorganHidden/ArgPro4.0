@@ -19,7 +19,7 @@ body {
 }
 
 #header {
-    height: 20%;
+    height: 25%;
     width: 100%;
 }
 
@@ -29,30 +29,24 @@ body {
     float: left;
 }
 
-#posicionfoto{
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #foto {
-    display: table-cell;
-    vertical-align: center;
+    height: 90%;
+    width: 90%;
     border-radius:  50%;
+    margin: 1em;
 }
 
 #nombre {
     height: 100%;
     width: 65%;
-    background-color: brown;
     float: right;
-    text-align: center;
+    text-align: left;
 }
 
 #main {
-    height: 80%;
+    height: 75%;
     width: 100%;
+    text-align: center;
 }
 
 #izquierdo {
@@ -64,10 +58,18 @@ body {
 #derecho {    
     height: 100%;
     width: 65%;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     float: right;
 }
 
 .colorborder {
     background-color: #283747;
+}
+
+h2 {
+    background-color: aqua;
+}
+
+p {
+    text-align: left;
 }
