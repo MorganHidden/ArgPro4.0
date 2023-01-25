@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen {
+    
+}
+
+html {
+    background-color: gray;
+}
+
+body {
+    height: 297mm;
+    width: 210mm;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+#header {
+    height: 20%;
+    width: 100%;
+}
+
+#imagen {
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+#posicionfoto{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foto {
+    display: table-cell;
+    vertical-align: center;
+    border-radius:  50%;
+}
+
+#nombre {
+    height: 100%;
+    width: 65%;
+    background-color: brown;
+    float: right;
+    text-align: center;
+}
+
+#main {
+    height: 80%;
+    width: 100%;
+}
+
+#izquierdo {
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+#derecho {    
+    height: 100%;
+    width: 65%;
+    background-color: aquamarine;
+    float: right;
+}
+
+.colorborder {
+    background-color: #283747;
+}
