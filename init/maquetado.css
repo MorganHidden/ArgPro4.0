@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen {
+    
+}
+ /*
+body {
+    margin: 2em;
+}
+*/
+#page {
+    height: 29,7cm;
+    width: 21cm;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    column-span: 2;
+}
+/*
+#aside {
+    height: 100%;
+    width: 35%;
+    background-color: blueviolet;
+    float: left;
+}
+
+#bside {
+    height: 100%;
+    width: 55%;
+    background-color: bisque;
+    float: right;
+}
+
+#aside_top_photo {
+    border-radius: 50%;
+}
+
+#bside_top_name {
+    height: 100%;
+    width: 30%;
+}
+
+*/
