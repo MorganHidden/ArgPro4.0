@@ -24,6 +24,7 @@ body {
     background-color: #A4A4A4;
     border-radius: 1em;
     margin: 1em;
+    text-align: center;
 }
 
 #nav {
@@ -36,16 +37,58 @@ body {
 #box2 {
     height: 45%;
     background-color: white; 
+    margin: 1em;
 }
 
 #footer {
     height: 20%;
     background-color: gray;
     border-radius: 1em;
+    margin: 1em;
 }
 
 #section {
     height: 100%;
-    width: 70%;
+    width: 60%;
     background-color: red;
+    border-radius: 1em;
+    float: left;
+}
+
+#aside {
+    height: 100%;
+    width: 38%;
+    background-color: cadetblue;
+    border-radius: 1em;
+    float: right;
+
+}
+
+.article {
+    text-align: center;
+    width: 95%;
+    height: 15%;
+    background-color: #424242;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#photo {
+    border-radius: 50%;
+    height: 20%;
+    float: left;
+    padding: 1em;
+}
+
+#name {
+    height: 60%;
+    float: right;
 }
