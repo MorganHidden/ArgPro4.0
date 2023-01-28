@@ -3,39 +3,45 @@
     padding: 0px;
 }
 
+body {
+    background-color: #F9EBEA;
+}
+
 .header {
     height: 350px;
-    background-color: blue;
+    background-color: #C0392B;
     margin-top: 2em;
 }
 
-.header img{
+#foto{
     margin: 1.5em;
-}
-
-.header h1,h2 {
-    background-color: antiquewhite;
+    margin-left: 4em;
 }
 
 .main h3 {
     height: 50px;
     text-align: center;
-    background-color: aqua;
+    background-color: #CD6155;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 .main h4 {
     text-align: center;
-    background-color: blueviolet;
+    background-color: #D98880;
 }
 
 .main h5 {
     text-align: center;
-    background-color: brown;
+    background-color: #E6B0AA;
 }
 
 .footer {
     height: 500px;
-    background-color: cadetblue; 
+    background-color: #C0392B; 
+}
+
+i {
+    height: 32px;
+    width: 32px;
 }

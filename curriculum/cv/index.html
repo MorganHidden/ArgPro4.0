@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <title>Curriculum Vitae</title>
-    <!--version 5.0-->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap v5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!--fontawesome v6.2.1-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    <!--bootstrap icon v5-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!--css-->
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <!--NECESITA NAVBAR!!!-->
+
     <!--header-->
     <section class="header">
         <div class="container">
             <div class="row align-content-center align-items-center justify-content-center">
-                <!--nombre-->
-                <div class="col">
+                <div id="nombre" class="col">
                     <h1 class="text-end">Nombre, APELLIDO</h1>
                     <h2 class="text-end">puesto</h2>
                 </div>
-                <!--foto-->
-                <div class="col">
+                <div id="foto" class="col">
                     <img class="img-fluid img-thumbnail rounded-circle" src="https://fotomanias.com.ar/wp-content/uploads/2019/03/foto-carnet-fondo-celeste.jpg" alt="foto_carnet" width="300px" height="300px">
                 </div>
             </div>
         </div>
     </section>
+    <!--header-->
     <!--main-->
     <section class="main">
         <div id="acerca-de-mi" class="container">                
@@ -114,40 +116,39 @@
             </div>
         </div>
     </section>
+    <!--main-->
     <!--footer-->
     <section class="footer">
         <footer>
-            <div class="container">
-            <h3>Datos de contacto</h3>
-            <div class="container">
+            <div id="titulo-footer" class="container">
+                <h3>Datos de contacto</h3>
+            </div>
+            <div id="cuerpo-footer" class="container">
                 <div class="row">
-                    <div class="col">
+                    <!--<div id="img-izq" class="col">
                         <img src="svg/telephone-fill.svg" alt="teléfono" width="32" height="32">
                         <img src="svg/house-fill.svg" alt="dirección" widght="32" height="32">
                         <img src="svg/envelope-fill.svg" alt="e-mail" widght="32" height="32">
-                    </div>
-                    <div class="col">
+                    </div>-->
+                    <div id="text-izq" class="col">
                         <p>Telefono</p>
                         <p>Direccion</p>
-                        <a href="https://htmlg.com/" target="_blank" rel="external" hreflang="en" type="text/html"></a>
+                        <a href="https://gmail.com" target="_blank" rel="external" hreflang="en" type="text/html"><i class="fa-solid fa-envelope fa-2xl" style="color:black"></i><span>contratenme_trabajo@gmail.com</span></a>
                     </div>
-                    <div class="col">
+                    <div id="img-der" class="col">
                         <img src="svg/linkedin.svg" alt="LinkedIn" widght="32" height="32">
                         <img src="svg/twitter.svg" alt="Twitter" widght="32" height="32">
                         <img src="svg/instagram.svg" alt="Instagram" widght="32" height="32">
                     </div>
-                    <div class="col">
+                    <div id="text-der" class="col">
                         <a href="https://htmlg.com/" target="_blank" rel="external" hreflang="en" type="text/html">linkedin</a>
                         <a href="https://htmlg.com/" target="_blank" rel="external" hreflang="en" type="text/html">twitter</a>
                         <a href="https://htmlg.com/" target="_blank" rel="external" hreflang="en" type="text/html">Instagram</a>
                     </div>
                 </div>
             </div>
-            </div>
         </footer>
     </section>
+    <!--footer-->
 </body>
 </html>
-
-
-<svg class="bi bi-exclamation-triangle text-success" width="32" height="32" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"></svg>
