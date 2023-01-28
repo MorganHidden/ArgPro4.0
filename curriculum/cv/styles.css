@@ -34,3 +34,8 @@
     text-align: center;
     background-color: brown;
 }
+
+.footer {
+    height: 500px;
+    background-color: cadetblue; 
+}
