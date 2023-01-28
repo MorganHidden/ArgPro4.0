@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/**nombre y foto**/
+
+#container-header {
+    height: 350px;
+    background-color: aqua;
+    margin-top: 3em;
+}
+
+#row-nombrefoto {
+    padding: 3%;
+    background-color: aquamarine; 
+}
+
+#nombre {
+
+}
+
+#foto{
+    align-items: center;
+    align-content: center;
+} 
+
