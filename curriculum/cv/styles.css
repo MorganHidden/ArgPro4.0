@@ -5,5 +5,32 @@
 
 .header {
     height: 350px;
-    background-color: beige;
+    background-color: blue;
+    margin-top: 2em;
+}
+
+.header img{
+    margin: 1.5em;
+}
+
+.header h1,h2 {
+    background-color: antiquewhite;
+}
+
+.main h3 {
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.main h4 {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.main h5 {
+    text-align: center;
+    background-color: brown;
 }
