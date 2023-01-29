@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+nav{
+    height: 4em;
+}
+
 body {
     background-color: #F9EBEA;
 }
@@ -11,6 +15,7 @@ body {
     height: 350px;
     background-color: #C0392B;
     margin-top: 2em;
+    margin-bottom: 5em;
 }
 
 #foto{
@@ -19,9 +24,10 @@ body {
 }
 
 .main h3 {
-    height: 50px;
+    height: 60px;
     text-align: center;
     background-color: #CD6155;
+    padding-top: 0.5em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -35,11 +41,15 @@ body {
 }
 
 .main h4 {
+    height: 50px;
+    padding-top: 0.5em;
     text-align: center;
     background-color: #D98880;
 }
 
 .main h5 {
+    height: 45px;
+    padding-top: 0.5em;
     text-align: center;
     background-color: #E6B0AA;
 }
@@ -49,7 +59,14 @@ body {
     background-color: #C0392B; 
 }
 
+#titulo-footer {
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+}
+
 #cuerpo-footer .row .container {
     margin: 1em;
     padding-bottom: 1em;
+
 }
