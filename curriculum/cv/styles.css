@@ -57,8 +57,16 @@ body {
     background-color: #E6B0AA;
 }
 
+#educacion .container{
+    background-color: red;
+}
+
 #licen,#insti,#cole {
     border-bottom: 1px solid;
+}
+
+#habilidades-idiomas #idioma {
+    border-left: 1px solid;
 }
 
 .footer {
