@@ -23,6 +23,9 @@ body {
     margin-left: 4em;
 }
 
+.main {
+    margin-bottom: 3em;
+}
 .main h3 {
     height: 60px;
     text-align: center;
@@ -52,6 +55,10 @@ body {
     padding-top: 0.5em;
     text-align: center;
     background-color: #E6B0AA;
+}
+
+#licen,#insti,#cole {
+    border-bottom: 1px solid;
 }
 
 .footer {
