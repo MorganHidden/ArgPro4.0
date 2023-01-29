@@ -26,6 +26,14 @@ body {
     margin-bottom: 1em;
 }
 
+.main p {
+    text-align: center;
+}
+
+.main li{
+    text-align: start;
+}
+
 .main h4 {
     text-align: center;
     background-color: #D98880;
@@ -39,4 +47,9 @@ body {
 .footer {
     height: 500px;
     background-color: #C0392B; 
+}
+
+#cuerpo-footer .row .container {
+    margin: 1em;
+    padding-bottom: 1em;
 }
