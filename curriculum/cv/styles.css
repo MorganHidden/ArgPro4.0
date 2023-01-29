@@ -63,6 +63,8 @@ body {
 
 #licen,#insti,#cole {
     border-bottom: 1px solid;
+    margin-top: 1em;
+    text-align: left;
 }
 
 #habilidades-idiomas #idioma {
