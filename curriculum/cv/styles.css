@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+h1,h2,h3,h4,h5,p,span {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 nav{
     height: 4em;
     background-color: #641e16;
@@ -22,10 +26,11 @@ body {
 
 .header {
     height: 350px;
-    background-color: #922b21;
+    background: linear-gradient(#922b21,70%,#CD6155) ;
     margin-top: 2em;
     margin-bottom: 5em;
     color: #ffffff;
+    box-shadow: 1px 3px 1em 3px black;
 }
 
 #foto{
@@ -43,6 +48,7 @@ body {
     padding-top: 0.5em;
     margin-top: 1em;
     margin-bottom: 1em;
+    box-shadow: 1px 3px 1em 3px black;
 }
 
 .main p {
@@ -58,6 +64,7 @@ body {
     padding-top: 0.5em;
     text-align: center;
     background-color: #D98880;
+    box-shadow: 1px 3px 1em 3px black;
 }
 
 .main h5 {
@@ -65,6 +72,7 @@ body {
     padding-top: 0.5em;
     text-align: center;
     background-color: #E6B0AA;
+    box-shadow: 1px 3px 1em 3px black;
 }
 
 #educacion .container{
@@ -77,13 +85,9 @@ body {
     text-align: left;
 }
 
-#habilidades-idiomas #idioma {
-    border-left: 1px solid;
-}
-
 .footer {
     height: 500px;
-    background-color: #641e16; 
+    background: linear-gradient(#CD6155,1%,#922b21) ; 
 }
 
 #titulo-footer {
