@@ -1,10 +1,14 @@
-var nombre = prompt("Cuál es tu nombre?");
-document.getElementById(bienvenido)
+var nombre = prompt("Ingrese su nombre");
+var titulo = document.getElementById("bienvenido");
 
-if (nombre == null || nombre == "") {
-    txt = "No ingresaste un nombre";
-} else {
-    document.write(nombre);
+if(nombre !== null) {
+    while(nombre === ""){
+        nombre = prompt("Nombre no válido, intente nuevamente.");
+    }
+
+    alert("correcto");
+
 }
 
-alert (txt);
+console.log(nombre);
+console.log(document.getElementById("bienvenido"));
