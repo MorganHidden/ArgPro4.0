@@ -7,8 +7,9 @@ if(nombre !== null) {
     }
 
     alert("correcto");
+    titulo.textContent = "Bienvenido"+nombre;
 
 }
 
 console.log(nombre);
-console.log(document.getElementById("bienvenido"));
+console.log(titulo);
