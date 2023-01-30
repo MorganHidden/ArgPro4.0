@@ -5,24 +5,27 @@
 
 nav{
     height: 4em;
+    background-color: #641e16;
 }
 
 #bienvenido {
     padding-left: 1em;
-    padding-top: 7px;
+    padding-top: 15px;
     font-size: 2em;
     align-items: center;
+    color: #ffffff
 }
 
 body {
-    background-color: #F9EBEA;
+    background-color: #e5e7e9;
 }
 
 .header {
     height: 350px;
-    background-color: #C0392B;
+    background-color: #922b21;
     margin-top: 2em;
     margin-bottom: 5em;
+    color: #ffffff;
 }
 
 #foto{
@@ -80,17 +83,19 @@ body {
 
 .footer {
     height: 500px;
-    background-color: #C0392B; 
+    background-color: #641e16; 
 }
 
 #titulo-footer {
     padding-top: 2em;
     padding-left: 3em;
     padding-bottom: 1em;
+    color: #ffffff
 }
 
 #cuerpo-footer .row .container {
     margin: 1em;
     padding-bottom: 1em;
+    color: #ffffff
 
 }
