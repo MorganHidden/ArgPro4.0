@@ -5,7 +5,7 @@ if(nombre !== null) {
     while(nombre === ""){
         nombre = prompt("El nombre no es válido, intentelo nuevamente.");
     }
-    alert("correcto");
+    
     titulo.textContent = "Bienvenido    " + nombre + "  !";
 }
 
