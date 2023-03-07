@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto Serif', serif;
+  --bs-dark: #131416;
+  --bs-dark-rgb: 19,20,22;
+  --bs-body-color: var(--bs-white);
+  --bs-body-bg: var(--bs-dark);
+  --bs-body-font-weight: 300px;
+  background: rgb(0,0,0);
+}
+
+.container {
+  height: 100%;
+  text-align: center;
+}
+
+#profesion {
+  font-weight: bold;
+  text-shadow: 0px 0px 20px;
+  margin-top: 1em;
+}
+
+#avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border-style: double;
+  box-shadow: 0px 0px 20px;
+  margin-top: 4em;
+}
+
+#nombre {
+  font-weight: bold;
+  text-shadow: 0px 0px 20px;
+  margin-top: 1em;
+}
+
+#acerca-de-mi {
+  width: 100%;
+  height: 600px;
+  background: radial-gradient(rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.81) 100%), url("../../assets/img/acerca-de-mi.jpeg") center / cover no-repeat;
+  margin-top: 10em;
+  /*border-top-style: none;*/
+}
+
+#experiencia-laboral {
+  width: 100%;
+  height: 600px;
+  background: radial-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.81)), url("https://api.time.com/wp-content/uploads/2021/02/laptop-home-office.jpg") left / auto no-repeat;
+  margin-top: 10em;
+}
+
+#estudios-academicos {
+  width: 100%;
+  background: radial-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.81)), url("https://www.crearuncurriculum.com/wp-content/uploads/2020/03/Formacio%CC%81n-acade%CC%81mica-1024x412.jpg") center / cover no-repeat;
+  height: 600px;
+  margin-top: 10em;
+}
+
+#idiomas {
+  width: 100%;
+  height: 600px;
+  background: radial-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.81)), url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/05/mujer-habla-diferentes-idiomas-2336107.jpg?tf=3840x") center / cover no-repeat;
+  margin-top: 10em;
+}
+
